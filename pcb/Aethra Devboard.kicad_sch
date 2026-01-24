@@ -4018,7 +4018,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Memory_Flash:W25Q128JVS"
+		(symbol "Memory_Flash:W25Q32JVZP"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -4030,7 +4030,7 @@
 					)
 				)
 			)
-			(property "Value" "W25Q128JVS"
+			(property "Value" "W25Q32JVZP"
 				(at 7.62 11.43 0)
 				(effects
 					(font
@@ -4038,34 +4038,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Package_SO:SOIC-8_5.3x5.3mm_P1.27mm"
-				(at 0 22.86 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.winbond.com/resource-files/w25q128jv_dtr%20revc%2003272018%20plus.pdf"
-				(at 0 25.4 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "128Mbit / 16MiB Serial Flash Memory, Standard/Dual/Quad SPI, 2.7-3.6V, SOIC-8"
-				(at 0 27.94 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "flash memory SPI QPI DTR"
+			(property "Footprint" "Package_SON:WSON-8-1EP_6x5mm_P1.27mm_EP3.4x4.3mm"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4074,7 +4047,16 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "*SOIC*5.3x5.3mm*P1.27mm*"
+			(property "Datasheet" "http://www.winbond.com/resource-files/w25q32jv%20revg%2003272018%20plus.pdf"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "32Mbit / 4MiB Serial Flash Memory, Standard/Dual/Quad SPI, 2.7-3.6V, WSON-8"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4083,7 +4065,25 @@
 					(hide yes)
 				)
 			)
-			(symbol "W25Q128JVS_0_1"
+			(property "ki_keywords" "flash memory SPI"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "WSON*1EP*6x5mm*P1.27mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "W25Q32JVZP_0_1"
 				(rectangle
 					(start -7.62 10.16)
 					(end 10.16 -10.16)
@@ -4096,7 +4096,7 @@
 					)
 				)
 			)
-			(symbol "W25Q128JVS_1_1"
+			(symbol "W25Q32JVZP_1_1"
 				(pin input line
 					(at -10.16 7.62 0)
 					(length 2.54)
@@ -4234,6 +4234,24 @@
 						)
 					)
 					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -12.7 90)
+					(length 2.54)
+					(name "EP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5793,6 +5811,12 @@
 		(uuid "95413f7c-017e-40bc-ae60-da8ca89f0ca8")
 	)
 	(junction
+		(at 63.5 182.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9a57c209-706b-49f9-a4ce-cfbd00acaee5")
+	)
+	(junction
 		(at 41.91 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6817,6 +6841,16 @@
 			(type default)
 		)
 		(uuid "6b58a5d3-37bd-434c-94ce-4590b173f853")
+	)
+	(wire
+		(pts
+			(xy 63.5 182.88) (xy 66.04 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c1b14bc-d450-475d-abe4-1a46bfd49af2")
 	)
 	(wire
 		(pts
@@ -10157,6 +10191,97 @@
 		)
 	)
 	(symbol
+		(lib_id "Memory_Flash:W25Q32JVZP")
+		(at 63.5 170.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "00b027c4-ce68-4d6d-9ef2-932f98bb1230")
+		(property "Reference" "U3"
+			(at 74.93 168.9099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "W25Q32JVZP"
+			(at 74.93 171.4499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SON:WSON-8-1EP_6x5mm_P1.27mm_EP3.4x4.3mm"
+			(at 63.5 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.winbond.com/resource-files/w25q32jv%20revg%2003272018%20plus.pdf"
+			(at 63.5 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "32Mbit / 4MiB Serial Flash Memory, Standard/Dual/Quad SPI, 2.7-3.6V, WSON-8"
+			(at 63.5 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "9ff1ec6b-736b-4dd7-88b2-5fbd43c4725a")
+		)
+		(pin "2"
+			(uuid "a8ab5573-21d0-46dc-877f-377cb34823ca")
+		)
+		(pin "8"
+			(uuid "86ad9575-3120-49f3-b975-c9f1c91a617e")
+		)
+		(pin "4"
+			(uuid "0a702bb5-9ded-467a-b488-590ca1ed217d")
+		)
+		(pin "6"
+			(uuid "e6d11cc4-f005-4953-ae77-456250578942")
+		)
+		(pin "3"
+			(uuid "dc83bc09-ba13-461e-9092-4b1d7e36c76c")
+		)
+		(pin "1"
+			(uuid "d2f34b7b-bb10-41a4-9ba8-52358769f3a6")
+		)
+		(pin "5"
+			(uuid "46a59498-c112-44b9-baac-55c3e48db073")
+		)
+		(pin "9"
+			(uuid "1963eafa-ad76-467c-bd30-c6cce31a1d2d")
+		)
+		(instances
+			(project ""
+				(path "/096052f6-535c-47de-956e-f78421eba4d9"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 128.27 170.18 0)
 		(unit 1)
@@ -11717,94 +11842,6 @@
 			(project ""
 				(path "/096052f6-535c-47de-956e-f78421eba4d9"
 					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Memory_Flash:W25Q128JVS")
-		(at 63.5 170.18 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5689a282-df5d-465b-a997-44c1723ff3ff")
-		(property "Reference" "U3"
-			(at 74.93 168.9099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "W25Q128JVS"
-			(at 74.93 171.4499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_5.3x5.3mm_P1.27mm"
-			(at 63.5 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.winbond.com/resource-files/w25q128jv_dtr%20revc%2003272018%20plus.pdf"
-			(at 63.5 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "128Mbit / 16MiB Serial Flash Memory, Standard/Dual/Quad SPI, 2.7-3.6V, SOIC-8"
-			(at 63.5 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c643a644-ac2a-4895-bc76-1a395820ca96")
-		)
-		(pin "6"
-			(uuid "71b23ee5-a23e-4ef7-960c-777aeffbc29c")
-		)
-		(pin "1"
-			(uuid "ac376445-13ee-40e9-9866-cc4f1591b794")
-		)
-		(pin "5"
-			(uuid "83c2d123-4a9b-439b-b491-f577a7038ba7")
-		)
-		(pin "3"
-			(uuid "721b1602-eb5f-4e21-b4ce-e2351884795a")
-		)
-		(pin "7"
-			(uuid "b5d35223-6de2-4d64-ab1a-ab41fc33c0c9")
-		)
-		(pin "4"
-			(uuid "cfa9d44d-e2d2-408c-abc2-ef3d255e4537")
-		)
-		(pin "8"
-			(uuid "30d66139-998d-4d12-b9f2-c5fc27ec23db")
-		)
-		(instances
-			(project ""
-				(path "/096052f6-535c-47de-956e-f78421eba4d9"
-					(reference "U3")
 					(unit 1)
 				)
 			)
