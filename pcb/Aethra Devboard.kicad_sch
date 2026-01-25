@@ -5912,6 +5912,10 @@
 		(color 0 0 0 0)
 		(uuid "fe3e2f99-54ab-47b2-b647-7688e965aca7")
 	)
+	(no_connect
+		(at 255.27 111.76)
+		(uuid "4b98fc45-b3e4-4157-8a3f-c26e34043c48")
+	)
 	(wire
 		(pts
 			(xy 130.81 77.47) (xy 133.35 77.47)
@@ -10209,7 +10213,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "W25Q32JVZP"
+		(property "Value" "W25Q16JVZPIQ"
 			(at 74.93 171.4499 0)
 			(effects
 				(font
@@ -10218,7 +10222,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SON:WSON-8-1EP_6x5mm_P1.27mm_EP3.4x4.3mm"
+		(property "Footprint" "Package_SON:Winbond_USON-8-1EP_3x2mm_P0.5mm_EP0.2x1.6mm"
 			(at 63.5 170.18 0)
 			(effects
 				(font
@@ -11952,7 +11956,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_PH_S3B-PH-SM4-TB_1x03-1MP_P2.00mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal"
 			(at 146.05 30.48 0)
 			(effects
 				(font
