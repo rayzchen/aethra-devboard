@@ -20,6 +20,5 @@ MCP73831-2-OT,U4,SOT-23-5,C424093,1,https://www.lcsc.com/product-detail/C424093.
 MBR0540,D1,D_SOD-123,C116159,1,https://www.lcsc.com/product-detail/C116159.html,0.0204,0.0204
 SW_Push,SW1,SW_Push_SPST_NO_Alps_SKRK,C720477,1,https://www.lcsc.com/product-detail/C720477.html,0.0444,0.0444
 Conn_01x20,"J2,J3",PinHeader_1x20_P2.54mm_Vertical,,2,https://www.aliexpress.com/item/4001053521664.html,1.255,2.51
-SK6805,D3,LED_SK6805_PLCC4_2.4x2.7mm_P1.3mm,,1,https://www.aliexpress.com/item/1005008979678361.html,5.53,5.53
-LiPo,BATT,LiPoly 3.7V 2000mAh PH2.0,,1,https://www.aliexpress.com/item/1005009590723370.html,1.53,1.53
-,,,,,,Grand Total,13.3228
+SK6805,D3,LED_SK6805_PLCC4_2.4x2.7mm_P1.3mm,,1,https://www.aliexpress.com/item/1005008979678361.html,1.37,1.37
+,,,,,,Grand Total,7.6328
